@@ -1,4 +1,4 @@
-# Netflix Clone Deployment using Jenkins, Docker, Kubernetes & DevSecOps
+# Netflix Clone CI/CD Pipeline using Jenkins, Docker, Kubernetes, Monitoring & DevSecOps
 
 <div align="center">
   <img src="./public/assets/DevSecOps.png" alt="DevSecOps Architecture" width="100%" height="100%">
