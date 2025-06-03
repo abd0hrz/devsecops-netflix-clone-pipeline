@@ -7,11 +7,10 @@
 <br />
 
 <div align="center">
-  <img src="./public/assets/home-page.png" alt="Netflix Clone Home Page" width="100%" height="100%">
   <p align="center"><strong>Home Page</strong></p>
+  <img src="./public/assets/home-page.png" alt="Netflix Clone Home Page" width="100%" height="100%">
 </div>
 
----
 
 ## Project Overview
 
@@ -19,7 +18,6 @@ This project demonstrates a **complete DevSecOps pipeline** for deploying a **Ne
 
 We use **Jenkins** for pipeline automation, **Docker** for containerization, **Kubernetes** for orchestration, and **Prometheus + Grafana** for system monitoring. Security is baked in using tools like **SonarQube**, **Trivy**, and **OWASP Dependency Check**.
 
----
 
 ## Tech Stack
 
@@ -37,7 +35,7 @@ We use **Jenkins** for pipeline automation, **Docker** for containerization, **K
 | Cloud Infrastructure | AWS EC2 (Ubuntu 22.04)    |
 | Source Control       | GitHub                    |
 
----
+
 
 ## DevSecOps Pipeline Stages
 
