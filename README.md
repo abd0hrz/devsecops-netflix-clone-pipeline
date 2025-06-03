@@ -1,4 +1,4 @@
-# Deploy Netflix Clone on Cloud using Jenkins - DevSecOps Project!
+# Netflix Clone Deployment using Jenkins, Docker, Kubernetes & DevSecOps
 
 <div align="center">
   <img src="./public/assets/DevSecOps.png" alt="DevSecOps Architecture" width="100%" height="100%">
