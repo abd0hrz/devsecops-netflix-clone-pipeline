@@ -1,28 +1,43 @@
-<div align="center">
-  <img src="./public/assets/DevSecOps.png" alt="Logo" width="100%" height="100%">
+# Netflix Clone CI/CD Pipeline using Jenkins, Docker, Kubernetes, Monitoring & DevSecOps
 
-  <br>
-  <a href="http://netflix-clone-with-tmdb-using-react-mui.vercel.app/">
-    <img src="./public/assets/netflix-logo.png" alt="Logo" width="100" height="32">
-  </a>
+<div align="center">
+  <img src="./public/assets/DevSecOps.png" alt="DevSecOps Architecture" width="100%" height="100%">
 </div>
 
 <br />
 
 <div align="center">
-  <img src="./public/assets/home-page.png" alt="Logo" width="100%" height="100%">
-  <p align="center">Home Page</p>
+  <p align="center"><strong>Home Page</strong></p>
+  <img src="./public/assets/home-page.png" alt="Netflix Clone Home Page" width="100%" height="100%">
 </div>
 
-# **Youtube Video for step by step Demonstration!**
-[![Video Tutorial](https://img.youtube.com/vi/g8X5AoqCJHc/0.jpg)](https://youtu.be/g8X5AoqCJHc)
+
+## Project Overview
+
+This project demonstrates a **complete DevSecOps pipeline** for deploying a **Netflix Clone application** using modern CI/CD, containerization, monitoring, and security tools — all hosted on AWS.
+
+We use **Jenkins** for pipeline automation, **Docker** for containerization, **Kubernetes** for orchestration, and **Prometheus + Grafana** for system monitoring. Security is baked in using tools like **SonarQube**, **Trivy**, and **OWASP Dependency Check**.
 
 
-## Susbcribe:
-[https://www.youtube.com/@cloudchamp?
-](https://www.youtube.com/@cloudchamp?sub_confirmation=1)
+## Tech Stack
 
-# Deploy Netflix Clone on Cloud using Jenkins - DevSecOps Project!
+| Category             | Tool / Technology         |
+|----------------------|---------------------------|
+| CI/CD                | Jenkins                   |
+| Containerization     | Docker                    |
+| Orchestration        | Kubernetes (K8s)          |
+| Code Quality & SAST  | SonarQube                 |
+| Image Scanning       | Trivy                     |
+| Dependency Checking  | OWASP Dependency Check    |
+| Monitoring           | Prometheus, Grafana       |
+| Metrics Export       | Node Exporter             |
+| Secrets Management   | Kubernetes Secrets        |
+| Cloud Infrastructure | AWS EC2 (Ubuntu 22.04)    |
+| Source Control       | GitHub                    |
+
+
+
+## DevSecOps Pipeline Stages
 
 ### **Phase 1: Initial Setup and Deployment**
 
@@ -37,7 +52,7 @@
 - Clone your application's code repository onto the EC2 instance:
     
     ```bash
-    git clone https://github.com/N4si/DevSecOps-Project.git
+    git clone https://github.com/abd0hrz/devsecops-netflix-clone-pipeline.git
     ```
     
 
